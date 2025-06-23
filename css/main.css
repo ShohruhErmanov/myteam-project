@@ -74,7 +74,6 @@ a {
 }
 .header__title span {
   color: var(--LightCoral);
-  
 }
 .header__text {
   color: var(--White);
@@ -83,11 +82,92 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+  margin-top: 79px;
 }
 .line {
   width: 50px;
   height: 4px;
   background: var(--RaptureBlue);
-  margin-bottom: 79px;
 }
 /* HEADER END */
+
+/* MAIN START */
+
+.main {
+}
+.main__teams {
+  padding: 140px 0;
+  background: var(--SacramentoStateGreen);
+}
+.main__title {
+  color: var(--White);
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 54px;
+}
+.main__services__title {
+  color: var(--LightCoral);
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.main__services__text {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.main__stories {
+  background: #004047;
+  padding-top: 140px;
+}
+
+.main__title2 {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.main__title2 span {
+  color: var(--RaptureBlue);
+}
+.main__stories__text {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.main__stories__title {
+  color: var(--RaptureBlue);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.main__stories__job {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+}
+/* MAIN END */
