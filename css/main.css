@@ -35,10 +35,29 @@ a {
   border: 2px solid var(--White);
   border-radius: 24px;
   padding: 11px 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s;
 }
 .btn:hover {
   background: var(--White);
   color: var(--DarkGreen);
+}
+
+.btn2 {
+  color: var(--SacramentoStateGreen);
+  border: 2px solid var(--SacramentoStateGreen);
+  border-radius: 24px;
+  padding: 11px 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.btn2:hover {
+  background: var(--SacramentoStateGreen);
+  color: var(--White);
 }
 
 /* HEADER START */
@@ -170,4 +189,45 @@ a {
   font-weight: 500;
   line-height: 18px;
 }
+.main__ready {
+  background: var(--LightCoral);
+  padding: 76px 0;
+}
+.main__ready__title {
+  color: var(--SacramentoStateGreen);
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.main__ready__btn {
+}
 /* MAIN END */
+
+/* FOOTER START */
+
+.footer {
+  background: var(--DarkGreen);
+  padding: 48px 0;
+}
+.footer__link {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.footer__text {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.footer__icons i{
+    color: var(--White);
+}
+/* FOOTER END */
