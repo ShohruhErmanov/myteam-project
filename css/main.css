@@ -1,0 +1,61 @@
+@import url("./fonts.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* color */
+
+  --MidnightGreen: #014e56;
+  --LightCoral: #f67e7e;
+  --White: #ffffff;
+  --RaptureBlue: #79c8c7;
+  --PoliceBlue: #2c6269;
+  --DeepJungleGreen: #004047;
+  --SacramentoStateGreen: #012f34;
+  --DarkGreen: #002529;
+
+  /* fonts */
+
+  --bold: "Livvic-Bold";
+  --SemiBold: "Livvic-SemiBold";
+}
+
+.btn {
+  color: var(--White);
+  border: 2px solid var(--White);
+  border-radius: 24px;
+  padding: 11px 32px;
+}
+
+/* HEADER START */
+
+.header {
+  background: var(--MidnightGreen);
+}
+.header__nav__link {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.header__nav__link:hover{
+    color: #F67E7E;
+}
+.header__nav__link:active{
+    color: #F67E7E;
+    opacity: 0.6;
+}
+
+/* HEADER END */
