@@ -201,8 +201,103 @@ a {
   font-weight: 700;
   line-height: 48px;
 }
-.main__ready__btn {
+.header__desc2 {
+  padding: 120px 0;
 }
+.main__meet {
+  background: var(--DeepJungleGreen);
+  padding: 140px 0;
+}
+.main__meet__cards {
+  margin-top: 84px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.main__meet__card {
+  position: relative;
+}
+
+.main__meet__title {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.main__meet__card {
+  background: var(--SacramentoStateGreen);
+  width: 350px;
+  padding: 32px 0;
+}
+.main__meet__card h3 {
+  color: var(--RaptureBlue);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.main__meet__card p {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+}
+.meet__card {
+  display: none !important;
+}
+.meet__card.active {
+  display: block !important;
+}
+
+.meet__card__desc {
+  display: none;
+  margin-top: 36px;
+  width: 254px;
+  padding: 0 0 35px 0;
+}
+
+.meet__card__desc.active{
+  display: block;
+}
+
+.meet__card__icons {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  color: var(--White);
+  margin-top: 24px;'
+  
+}
+.meet__card__btn {
+ padding: 28px 0 0 0 ;
+ position: absolute;
+ bottom: -27px;
+}
+
+.card__btn_img1{
+  display: none;
+}
+.card__btn_img2{
+  display: none;
+}
+
+.card__btn_img1.active{
+  display: block;
+}
+.card__btn_img2.active{
+  display: block;
+}
+
+
+
 /* MAIN END */
 
 /* FOOTER START */
@@ -227,7 +322,7 @@ a {
   font-weight: 600;
   line-height: 25px;
 }
-.footer__icons i{
-    color: var(--White);
+.footer__icons i {
+  color: var(--White);
 }
 /* FOOTER END */
