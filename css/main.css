@@ -264,7 +264,7 @@ a {
   padding: 0 0 35px 0;
 }
 
-.meet__card__desc.active{
+.meet__card__desc.active {
   display: block;
 }
 
@@ -273,30 +273,52 @@ a {
   column-gap: 20px;
   justify-content: center;
   color: var(--White);
-  margin-top: 24px;'
-  
+  margin-top: 24px;
 }
 .meet__card__btn {
- padding: 28px 0 0 0 ;
- position: absolute;
- bottom: -27px;
+  padding: 28px 0 0 0;
+  position: absolute;
+  bottom: -27px;
 }
 
-.card__btn_img1{
+.card__btn_img1 {
   display: none;
 }
-.card__btn_img2{
+.card__btn_img2 {
   display: none;
 }
 
-.card__btn_img1.active{
+.card__btn_img1.active {
   display: block;
 }
-.card__btn_img2.active{
+.card__btn_img2.active {
   display: block;
 }
 
-
+.main__clients {
+  background: var(--SacramentoStateGreen);
+  padding: 140px 151px;
+}
+.main__clients h2 {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.main__client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 70px;
+}
+.main__clients__img img {
+  width: 165px;
+  object-fit: contain;
+}
 
 /* MAIN END */
 
