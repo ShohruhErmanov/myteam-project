@@ -1,0 +1,488 @@
+@import url("./fonts.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* color */
+
+  --MidnightGreen: #014e56;
+  --LightCoral: #f67e7e;
+  --White: #ffffff;
+  --RaptureBlue: #79c8c7;
+  --PoliceBlue: #2c6269;
+  --DeepJungleGreen: #004047;
+  --SacramentoStateGreen: #012f34;
+  --DarkGreen: #002529;
+
+  /* fonts */
+
+  --bold: "Livvic-Bold";
+  --SemiBold: "Livvic-SemiBold";
+}
+
+.btn {
+  color: var(--White);
+  border: 2px solid var(--White);
+  border-radius: 24px;
+  padding: 11px 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: var(--White);
+  color: var(--DarkGreen);
+}
+
+.btn2 {
+  color: var(--SacramentoStateGreen);
+  border: 2px solid var(--SacramentoStateGreen);
+  border-radius: 24px;
+  padding: 11px 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn2:hover {
+  background: var(--SacramentoStateGreen);
+  color: var(--White);
+}
+
+/* HEADER START */
+
+.header {
+  background: var(--MidnightGreen);
+}
+
+.header__nav__link {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.header__nav__link:hover {
+  color: #f67e7e;
+}
+
+.header__nav__link:active {
+  color: #f67e7e;
+  opacity: 0.6;
+}
+
+.header__desc {
+  padding: 113px 0 250px 0;
+}
+
+.header__title {
+  color: var(--White);
+  font-family: var(--bold);
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.header__title span {
+  color: var(--LightCoral);
+}
+
+.header__text {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 79px;
+}
+
+.line {
+  width: 50px;
+  height: 4px;
+  background: var(--RaptureBlue);
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.main {}
+
+.main__teams {
+  padding: 140px 0;
+  background: var(--SacramentoStateGreen);
+}
+
+.main__title {
+  color: var(--White);
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 54px;
+}
+
+.main__services__title {
+  color: var(--LightCoral);
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.main__services__text {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.main__stories {
+  background: #004047;
+  padding-top: 140px;
+}
+
+.main__title2 {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.main__title2 span {
+  color: var(--RaptureBlue);
+}
+
+.main__stories__text {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.main__stories__title {
+  color: var(--RaptureBlue);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.main__stories__job {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.main__ready {
+  background: var(--LightCoral);
+  padding: 76px 0;
+}
+
+.main__ready__title {
+  color: var(--SacramentoStateGreen);
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.header__desc2 {
+  padding: 120px 0;
+}
+
+.main__meet {
+  background: var(--DeepJungleGreen);
+  padding: 140px 0;
+}
+
+.main__meet__cards {
+  margin-top: 84px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.main__meet__card {
+  position: relative;
+}
+
+.main__meet__title {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.main__meet__card {
+  background: var(--SacramentoStateGreen);
+  width: 350px;
+  padding: 32px 0;
+}
+
+.main__meet__card h3 {
+  color: var(--RaptureBlue);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.main__meet__card p {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.meet__card {
+  display: none !important;
+  padding: 0 0 35px 0;
+
+}
+
+.meet__card.active {
+  display: block !important;
+}
+
+.meet__card__desc {
+  display: none;
+  margin-top: 36px;
+  width: 254px;
+}
+
+.meet__card__desc.active {
+  display: block;
+}
+
+.meet__card__icons {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  color: var(--White);
+  margin-top: 24px;
+}
+
+.meet__card__btn {
+  padding: 28px 0 0 0;
+  position: absolute;
+  bottom: -27px;
+}
+
+
+
+.card__btn_img1 {
+  cursor: pointer;
+}
+
+
+.main__clients {
+  background: var(--SacramentoStateGreen);
+  padding: 140px 151px;
+}
+
+.main__clients h2 {
+  color: var(--White);
+  text-align: center;
+  font-family: var(--bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.main__client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 70px;
+}
+
+.main__clients__img img {
+  width: 165px;
+  object-fit: contain;
+}
+
+.contact__section {
+  background: var(--MidnightGreen);
+}
+
+.contact__title {
+  color: var(--White);
+  font-family: var(--bold);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  padding-bottom: 18px;
+}
+
+.contact__text {
+  color: var(--LightCoral);
+  font-family: var(--SemiBold);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 32px;
+}
+
+.contact__section {
+  padding: 124px 142px;
+}
+
+.main__contact__title {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.contact__form input {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 17px;
+  border-bottom: 2px solid var(--White);
+  color: var(--White);
+
+  &::placeholder {
+    color: var(--White);
+    font-family: var(--SemiBold);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+}
+
+.contact__form textarea {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 17px;
+  border-bottom: 2px solid var(--White);
+  color: var(--White);
+
+  &::placeholder {
+    color: var(--White);
+    font-family: var(--SemiBold);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+}
+
+.contact__form button {
+  color: var(--DeepJungleGreen);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  width: 123px;
+  padding: 11px 32px;
+  border-radius: 24px;
+  border: none;
+}
+
+.emailError {
+  color: var(--LightCoral);
+  font-family: var(--SemiBold);
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+
+.footer {
+  background: var(--DarkGreen);
+  padding: 48px 0;
+}
+
+.footer__link {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer__text {
+  color: var(--White);
+  font-family: var(--SemiBold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.footer__icons i {
+  color: var(--White);
+}
+
+/* FOOTER END */
